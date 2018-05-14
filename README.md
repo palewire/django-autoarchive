@@ -41,7 +41,7 @@ Migrate to build tables.
 $ python manage.py migrate
 ```
 
-Choose a Django model you'd like to being archiving. Have it inherit from this app's base `AutoArchiveModel`. Here's an example.
+Choose a Django model you'd like to begin archiving. Have it inherit from this app's base `AutoArchiveModel`. Here's an example:
 
 ```python
 # -*- coding: utf-8 -*-
