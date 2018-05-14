@@ -92,4 +92,4 @@ Save again and it will create another one. And again. And again.
 
 ### More stuff to know
 
-You can override `get_archive_url` on the model to have it return any field or generated value to be sent to the Internet Archive. There's also some bits in here to prevent unpublished objects from being sent to the archive. Right now you'll have to read the source code to better understand those options. But it's not much. I promise.
+You can override `get_archive_url` on the model to have it return any field or generated value to be sent to the Internet Archive. There's also some bits in here to prevent unpublished objects from being sent to the archive. Right now you'll have to read [the source code](https://github.com/pastpages/django-autoarchive/blob/master/autoarchive/models.py) to better understand those options. But it's not much. I promise.
