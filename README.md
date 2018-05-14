@@ -88,6 +88,8 @@ Boom. That's it. If you visit your admin you'll see the Memento has been created
 
 ![](example/img/detail.png)
 
+Save again and it will create another one. And again. And again.
+
 ### More stuff to know
 
 You can override `get_archive_url` on the model to have it return any field or generated value to be sent to the Internet Archive. There's also some bits in here to prevent unpublished objects from being sent to the archive. Right now you'll have to read the source code to better understand those options. But it's not much. I promise.
