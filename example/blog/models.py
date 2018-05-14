@@ -1,9 +1,10 @@
 # -*- coding: utf-8 -*-
 from __future__ import unicode_literals
 from django.db import models
+from autoarchive.models import AutoArchiveModel
 
 
-class Post(models.Model):
+class Post(AutoArchiveModel):
     """
     A blog post.
     """
