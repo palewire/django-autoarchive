@@ -11,7 +11,12 @@ Install this Django app. Hook it to a model. Do a little bit of config. Each tim
 
 This is a proof of concept developed in response to some [interesting Twitter conversations](https://twitter.com/palewire/status/995809746878787584) about how online news organizations can more aggressively archive their work.
 
-That means it is not perfect. Things it should do yet: 1) Hand the archiving off to a background task runner like Celery. 2) Support other online archives like [archive.is](http://archive.is) 3) Surface archived mementos on the admin page of enabled models. 4) Have tests and continuous integration and all that adult stuff.
+That means it is not perfect. Things it should do yet:
+
+1. Hand the archiving off to a background task runner like Celery.
+2. Support other online archives like [archive.is](http://archive.is).
+3. Surface archived mementos on the admin page of enabled models.
+4. Have tests and continuous integration and all that adult stuff.
 
 ### How to try it out
 
