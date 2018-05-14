@@ -5,11 +5,11 @@ Django helpers for automatically archiving URLs
 
 ### Here's the idea.
 
-Install this Django add. Hook it to a model. Do a little bit of config. Each time you save an object, its URL will be archived at the Internet Archive's Wayback Machine.
+Install this Django app. Hook it to a model. Do a little bit of config. Each time you save an object, its URL will be archived at [The Internet Archive's Wayback Machine](http://archive.org).
 
 ### Don't get any big ideas.
 
-This is a proof of concept developed in response to some interesting Twitter conversations about ideas about how online news organizations can more aggressively archive their work.
+This is a proof of concept developed in response to some [interesting Twitter conversations](https://twitter.com/palewire/status/995809746878787584) about ideas about how online news organizations can more aggressively archive their work.
 
 That means it is not perfect. Things it should do yet: 1) Hand the archiving off to a background task runner like Celery. 2) Support other online archives like archive.is 3) Surface archived mementos on the admin page of enabled models.
 
@@ -85,4 +85,4 @@ Boom. That's it. If you visit your admin you'll see the Memento has been created
 
 ### More stuff to know
 
-You can override `get_archive_url` on the model to have it return any field or generated value to be sent to the Internet Archive. There's also some bits in here to prevent unpublished objects from being sent to the archive. Right now you'll have to read the source code to better understand those options. But it's not much. I promise. 
+You can override `get_archive_url` on the model to have it return any field or generated value to be sent to the Internet Archive. There's also some bits in here to prevent unpublished objects from being sent to the archive. Right now you'll have to read the source code to better understand those options. But it's not much. I promise.
