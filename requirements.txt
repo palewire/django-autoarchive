@@ -1,2 +1,7 @@
 django>=1.11.15
 savepagenow>=0.0.12
+
+
+twine
+flake8
+coverage
