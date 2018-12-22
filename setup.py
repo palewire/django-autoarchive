@@ -24,6 +24,6 @@ setup(
         'Framework :: Django :: 2.0',
     ],
     install_requires=[
-        'savepagenow>=0.0.9'
+        'savepagenow>=0.0.12'
     ]
 )
