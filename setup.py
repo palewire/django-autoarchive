@@ -3,7 +3,7 @@ from setuptools import setup
 
 setup(
     name='django-autoarchive',
-    version='0.0.1',
+    version='0.0.2',
     description='Django helpers for automatically archiving URLs',
     author='Ben Welsh',
     author_email='ben.welsh@gmail.com',
